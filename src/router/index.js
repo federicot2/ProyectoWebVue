@@ -1,17 +1,23 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../components/pages/HomeView.vue'
+import { createRouter, createWebHistory } from 'vue-router';
 
-//importaciones vistas de arboles
-import Roble from '../components/pages/RobleView.vue'
-import Panama from '../components/pages/ArbolPanamaView.vue'
-import Guachapali from '../components/pages/GuachaView.vue'
-import Toreta from '../components/pages/ToretaView.vue'
-import Cabresto from '../components/pages/CabrestoView.vue'
+import Home from '../components/pages/HomeView.vue';
+import Roble from '../components/pages/RobleView.vue';
+import Panama from '../components/pages/ArbolPanamaView.vue';
+import Guachapali from '../components/pages/GuachaView.vue';
+import Toreta from '../components/pages/ToretaView.vue';
+import Cabresto from '../components/pages/CabrestoView.vue';
+
+import Iguana from '../components/pages/IguanaView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    //Vistas de arboles
+    // Vistas de arboles
+    {
+      path: '/',
+      name: 'home',
+      component: Home
+    },
     {
       path: '/roble',
       name: 'roble',
@@ -24,13 +30,8 @@ const router = createRouter({
     },
     {
       path: '/guachapali',
-      name: 'guachapalo',
+      name: 'guachapali',
       component: Guachapali
-    },
-    {
-      path: '/',
-      name: 'home',
-      component: Home
     },
     {
       path: '/toreta',
@@ -41,8 +42,13 @@ const router = createRouter({
       path: '/cabresto',
       name: 'cabresto',
       component: Cabresto
+    },
+    {
+      path: '/iguana',
+      name: 'iguana',
+      component: Iguana
     }
   ]
-})
+});
 
-export default router
+export default router;
