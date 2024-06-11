@@ -11,12 +11,12 @@ import Cabresto from '../components/pages/CabrestoView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    //Vistas de arboles
     {
       path: '/roble',
       name: 'roble',
       component: Roble
     },
-    //Vistas de arboles
     {
       path: '/panama',
       name: 'panama',

@@ -61,7 +61,7 @@ function init() {
     // Cargar modelo GLB
     const loader = new GLTFLoader();
     loader.load(
-        '/model/mappple.glb',
+        '/model/roble.glb',
         function ( gltf ) {
             const model = gltf.scene;
 
