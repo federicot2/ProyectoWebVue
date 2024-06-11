@@ -282,7 +282,7 @@ window.addEventListener('click', function(event) {
         <span class="close">&times;</span>
 
         <div class="imagen">
-          <img src="/img/rob.jpg" alt="roble" />
+          <!--<img src="/img/rob.jpg" alt="roble" />-->
         </div>
         <p>
             Árbol mediano, caducifolio, de copa extendida e irregular. 
