@@ -224,17 +224,17 @@ function render() {
 
         <div style="position: relative; height: 100vh;">
 
-<div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white;">
-    <h1>Guachapali</h1>
-</div>
+            <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white;">
+                <h1>Guachapali</h1>
+            </div>
 
-<div ref="threeContainer"></div>
+            <div ref="threeContainer"></div>
 
-<div style="position: absolute; bottom: 20px; left: 20px;">
-    <v-btn @click="showModal = true" class="pauseButton">Info</v-btn>
-</div>
+            <div style="position: absolute; bottom: 20px; left: 20px;">
+                <v-btn @click="showModal = true" class="pauseButton">Info</v-btn>
+            </div>
 
-</div>
+        </div>
 
 
 
