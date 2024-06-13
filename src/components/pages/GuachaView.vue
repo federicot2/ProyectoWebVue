@@ -230,7 +230,7 @@ function render() {
 
             <div ref="threeContainer"></div>
 
-            <div class="button-container">
+            <div style="position: absolute; bottom: 20px; left: 20%;transform: translateX(-50%);">
                 <v-btn @click="showModal = true" class="pauseButton">Info</v-btn>
             </div>
 
@@ -266,21 +266,5 @@ function render() {
 
 .informacion {
     text-align: justify;
-}
-
-
-.button-container {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-}
-
-@media (max-width: 768px) {
-    .button-container {
-        bottom: 10px; /* Ajusta la posición si es necesario para dispositivos móviles */
-        left: 10px;   /* Ajusta la posición si es necesario para dispositivos móviles */
-    }
-
-
 }
 </style>
