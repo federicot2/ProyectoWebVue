@@ -7,7 +7,7 @@ import Guachapali from '../components/pages/GuachaView.vue';
 import Toreta from '../components/pages/ToretaView.vue';
 import Cabresto from '../components/pages/CabrestoView.vue';
 
-import Iguana from '../components/pages/IguanaView.vue';
+import Iguana from '../components/pages2/IguanaView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -43,6 +43,7 @@ const router = createRouter({
       name: 'cabresto',
       component: Cabresto
     },
+    //Vista de Animales
     {
       path: '/iguana',
       name: 'iguana',
