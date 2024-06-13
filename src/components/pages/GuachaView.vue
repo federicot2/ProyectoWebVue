@@ -230,7 +230,7 @@ function render() {
 
             <div ref="threeContainer"></div>
 
-            <div style="position: absolute; bottom: 150px; left: 10%;transform: translateX(-50%);">
+            <div style="position: absolute; bottom: 120px; left: 15%;transform: translateX(-50%);">
                 <v-btn @click="showModal = true" class="pauseButton">Info</v-btn>
             </div>
 
