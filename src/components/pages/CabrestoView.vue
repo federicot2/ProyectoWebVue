@@ -197,7 +197,7 @@ function render() {
 
                 <v-card-text>
                     <div class="imagen">
-                        <!--<img src="/img/rob.jpg" alt="roble" />-->
+                        <img src="/img/cabresto.jpg" alt="cabresto" />
                     </div>
                     <p>
                         El cabresto, conocido científicamente como Ardisia escallonioides, es un árbol nativo de
@@ -263,4 +263,9 @@ function render() {
 .informacion {
     text-align: justify;
 }
+.imagen img {
+  width: 50%; /* Ancho relativo al contenedor */
+  height: auto;
+}
+
 </style>

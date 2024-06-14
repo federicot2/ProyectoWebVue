@@ -197,7 +197,7 @@ function render() {
 
         <v-card-text>
           <div class="imagen">
-            <!--<img src="/img/rob.jpg" alt="roble" />-->
+            <img src="/img/roble.jpg" alt="roble" />
           </div>
           <p>
             El roble es un género de árboles conocidos como Quercus, que incluye muchas especies distribuidas en el
@@ -263,4 +263,9 @@ function render() {
 .informacion {
   text-align: justify;
 }
+.imagen img {
+  width: 50%; /* Ancho relativo al contenedor */
+  height: auto;
+}
+
 </style>

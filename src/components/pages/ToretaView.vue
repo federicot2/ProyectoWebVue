@@ -197,7 +197,7 @@ function render() {
 
                 <v-card-text>
                     <div class="imagen">
-                        <!--<img src="/img/rob.jpg" alt="roble" />-->
+                        <img src="/img/annona.jpg" alt="Toreta" />
                     </div>
                     <p>
                         Árbol mediano, caducifolio, de copa extendida e irregular.
@@ -267,4 +267,9 @@ function render() {
 .informacion {
     text-align: justify;
 }
+.imagen img {
+  width: 50%; /* Ancho relativo al contenedor */
+  height: auto;
+}
+
 </style>

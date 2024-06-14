@@ -197,7 +197,7 @@ function render() {
 
                 <v-card-text>
                     <div class="imagen">
-                        <!--<img src="/img/rob.jpg" alt="roble" />-->
+                        <img src="/img/panama.jpg" alt="arbol panamá" />
                     </div>
                     <p>
                         El árbol de Panamá, conocido científicamente como Sterculia apetala, es un árbol grande y
@@ -265,4 +265,9 @@ function render() {
 .informacion {
     text-align: justify;
 }
+.imagen img {
+  width: 50%; /* Ancho relativo al contenedor */
+  height: auto;
+}
+
 </style>
