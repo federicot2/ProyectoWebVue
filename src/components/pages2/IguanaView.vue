@@ -198,7 +198,7 @@ function render() {
 
         <v-card-text>
           <div class="imagen">
-            <!--<img src="/img/rob.jpg" alt="roble" />-->
+            <img src="/img/iguana.jpg" alt="iguana" />
           </div>
           <p>
             La iguana verde (Iguana iguana) es un reptil que puede alcanzar los 2 metros de longitud, incluyendo su
@@ -263,5 +263,9 @@ function render() {
 
 .informacion {
   text-align: justify;
+}
+.imagen img {
+  width: 50%; /* Ancho relativo al contenedor */
+  height: auto;
 }
 </style>
