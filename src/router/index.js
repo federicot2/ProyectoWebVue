@@ -9,6 +9,8 @@ import Cabresto from '../components/pages/CabrestoView.vue';
 
 import Iguana from '../components/pages2/IguanaView.vue';
 
+import Prueba from '../components/pages2/pruebaView.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -48,7 +50,14 @@ const router = createRouter({
       path: '/iguana',
       name: 'iguana',
       component: Iguana
+    },
+    //Pruebas
+    {
+      path: '/prueba',
+      name: 'prueba',
+      component: Prueba
     }
+
   ]
 });
 

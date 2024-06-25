@@ -225,8 +225,7 @@ function render() {
             <div
                 style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, 0); color: white; text-align: center;">
                 <h1>Arbol Panamá</h1>
-                <p>Un árbol grande de 30-40 metros, nativo de América Central y del Sur, con madera ligera usada en
-                    muebles y semillas comestibles.</p>
+
             </div>
 
 

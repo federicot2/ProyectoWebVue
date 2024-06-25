@@ -23,7 +23,7 @@ onBeforeUnmount(() => {
 
 function init() {
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x808080);
+    scene.background = new THREE.Color(0xE3EEF7);
 
     camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 10);
     camera.position.set(0, 1.6, 3);
@@ -220,7 +220,7 @@ function render() {
 
         <div style="position: relative; height: 100vh;">
 
-            <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: white;">
+            <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); color: black;">
                 <h1>Cabresto</h1>
             </div>
 
