@@ -1,0 +1,9 @@
+https://manu.ninja/webgl-three-js-annotations/
+
+https://www.reddit.com/r/threejs/comments/w3ing4/i_made_my_room_with_interactive_prompts/
+
+
+https://github.com/honzaap/MyRoom/tree/main/public/asset
+
+
+https://honzaap.github.io/MyRoom/
